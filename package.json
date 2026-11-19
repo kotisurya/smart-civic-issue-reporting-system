@@ -1,0 +1,17 @@
+{
+  "name": "nagarasetu-civic-issues",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web-based smart civic issue reporting and management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test test/database.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.1",
+    "nodemailer": "^9.0.5"
+  }
+}
